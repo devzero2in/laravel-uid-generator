@@ -1,0 +1,27 @@
+{
+  "name": "devzero2in/laravel-uid-generator",
+  "description": "Laravel Unique ID Gegerator",
+  "license": "devzero2in",
+  "autoload": {
+    "psr-4": {
+      "Devzero2in\\LaravelUidGenerator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "devzero2in",
+      "email": "devzero2in@gmail.com"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Devzero2in\\LaravelUidGenerator\\UniqueIdGeneratorServiceProvider"
+      ],
+      "aliases": {
+        "UniqueIdGenerator": "Devzero2in\\LaravelUidGenerator\\Facades\\UniqueIdGenerator"
+      }
+    }
+  }
+}
