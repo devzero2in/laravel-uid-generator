@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 
 # Laravel Unique ID Generator
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/your-vendor/laravel-unique-id-generator.svg?style=flat-square)](https://packagist.org/packages/your-vendor/laravel-unique-id-generator)
-[![Total Downloads](https://img.shields.io/packagist/dt/your-vendor/laravel-unique-id-generator.svg?style=flat-square)](https://packagist.org/packages/your-vendor/laravel-unique-id-generator)
-[![License](https://img.shields.io/packagist/l/your-vendor/laravel-unique-id-generator.svg?style=flat-square)](LICENSE)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/devzero2in/laravel-uid-generator.svg?style=flat-square)](https://packagist.org/packages/devzero2in/laravel-uid-generator)
+[![Total Downloads](https://img.shields.io/packagist/dt/devzero2in/laravel-uid-generator.svg?style=flat-square)](https://packagist.org/packages/devzero2in/laravel-uid-generator)
+[![License](https://img.shields.io/packagist/l/devzero2in/laravel-uid-generator.svg?style=flat-square)](LICENSE)
 
 A flexible and reliable package for generating unique IDs in Laravel. This package allows developers to generate custom IDs for any database table with options for setting prefixes, custom lengths, and field names.
 
@@ -25,7 +24,7 @@ A flexible and reliable package for generating unique IDs in Laravel. This packa
 Install the package via Composer:
 
 ```bash
-composer require your-vendor/laravel-unique-id-generator
+composer require devzero2in/laravel-uid-generator
 ```
 
 ---
@@ -147,11 +146,11 @@ This package is open-sourced software licensed under the [MIT license](LICENSE).
 ---
 
 ## 📩 Support
+// A cup of coffee would be appreciated.
+
+[![Buy Me Coffee](https://img.shields.io/badge/Buy%20Me%20Coffee-🍵-green.svg)](https://www.buymeacoffee.com/devzero2in)
 
 If you need any help or have questions, feel free to open an issue or contact me.
-=======
-Laravel Unique ID Generator
 
-Installation
-composer require your-vendor/laravel-unique-id-generator
->>>>>>> a4cb97f7220dcd80fdddb184e295457080a5ad73
+[![GitHub Issues](https://img.shields.io/github/issues/devzero2in/laravel-uid-generator.svg?style=flat-square)](https://github.com/devzero2in/laravel-uid-generator/issues)
+[![GitHub PRs](https://img.shields.io/github/pulls/devzero2in/laravel-uid-generator.svg?style=flat-square)](https://github.com/devzero2in/laravel-uid-generator/pulls)

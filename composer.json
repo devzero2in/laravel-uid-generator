@@ -1,27 +1,34 @@
 {
-  "name": "devzero2in/laravel-uid-generator",
-  "description": "Laravel Unique ID Gegerator",
-  "license": "devzero2in",
-  "autoload": {
-    "psr-4": {
-      "Devzero2in\\LaravelUidGenerator\\": "src/"
-    }
-  },
-  "authors": [
-    {
-      "name": "devzero2in",
-      "email": "devzero2in@gmail.com"
-    }
-  ],
-  "require": {},
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Devzero2in\\LaravelUidGenerator\\UniqueIdGeneratorServiceProvider"
-      ],
-      "aliases": {
-        "UniqueIdGenerator": "Devzero2in\\LaravelUidGenerator\\Facades\\UniqueIdGenerator"
+    "name": "devzero2in/laravel-uid-generator",
+    "description": "Laravel Unique ID Gegerator",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Devzero2in\\LaravelUidGenerator\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "devzero2in",
+        "email": "devzero2in@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+      "php": "^8.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Devzero2in\\LaravelUidGenerator\\UniqueIdGeneratorServiceProvider"
+        ],
+        "aliases": {
+          "UniqueIdGenerator": "Devzero2in\\LaravelUidGenerator\\Facades\\UniqueIdGenerator"
+        }
       }
     }
   }
-}
+  
