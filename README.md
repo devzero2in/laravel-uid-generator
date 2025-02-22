@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Laravel Unique ID Generator
 
@@ -148,3 +149,9 @@ This package is open-sourced software licensed under the [MIT license](LICENSE).
 ## 📩 Support
 
 If you need any help or have questions, feel free to open an issue or contact me.
+=======
+Laravel Unique ID Generator
+
+Installation
+composer require your-vendor/laravel-unique-id-generator
+>>>>>>> a4cb97f7220dcd80fdddb184e295457080a5ad73
